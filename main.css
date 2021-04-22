@@ -100,10 +100,10 @@ p {
     justify-content: center;
     align-items: center;
     border-radius: 10px;
-    padding: 15px 10px;
+    padding: 10px 10px;
     box-sizing: border-box;
     cursor: pointer;
-    margin: 10px 15px;
+    margin: 10px 10px;
     background-position: center;
     background-size: cover;
     transition: all 0.4s ease;
@@ -996,8 +996,8 @@ blockquote span {
         font-size: 12px;
     }
     .card {
-        height: 35vh;
-        width: 42.5%;
+        height: 35vh !important;
+        width: 40% !important;
     }
     .navNormal {
         display: none;
@@ -1016,7 +1016,7 @@ blockquote span {
     }
 }
 
-@media screen and (max-width:25em) {
+@media screen and (max-width:30em) {
     .header {
         min-height: 100vh;
         background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.5)), url("images/bg_hader.jpg") center/cover no-repeat;
@@ -1040,7 +1040,7 @@ blockquote span {
         font-size: 10px;
     }
     .card {
-        height: 22vh;
-        width: 37.5%;
+        height: 35vh !important;
+        width: 40% !important;
     }
 }
