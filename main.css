@@ -100,7 +100,7 @@ p {
     justify-content: center;
     align-items: center;
     border-radius: 10px;
-    padding: 15px 25px;
+    padding: 15px 10px;
     box-sizing: border-box;
     cursor: pointer;
     margin: 10px 15px;
@@ -126,7 +126,7 @@ p {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-blend-mode: overlay;
+    background-blend-mode: hue;
 }
 
 .card2 {
@@ -135,7 +135,7 @@ p {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-blend-mode: overlay;
+    background-blend-mode: hue;
 }
 
 .card3 {
@@ -144,7 +144,7 @@ p {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-blend-mode: overlay;
+    background-blend-mode: hue;
 }
 
 .card4 {
@@ -153,14 +153,14 @@ p {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-blend-mode: overlay;
+    background-blend-mode: hue;
 }
 
 .card:hover {
     transition: all 0.4s ease;
     transform: translateY(-10px);
     box-shadow: 0 0 5px #999;
-    background-blend-mode: multiply;
+    background-blend-mode: overlay;
 }
 
 
@@ -212,7 +212,7 @@ p {
 
 .header {
     min-height: 100vh;
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)), url("images/bg_hader.jpg") center/cover no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.5)), url("images/bg_hader.jpg") center/cover no-repeat;
     color: #fff;
     background-attachment: fixed;
     background-blend-mode: multiply;
@@ -761,7 +761,7 @@ blockquote span {
 @media screen and (min-width: 678px) {
     .header {
         min-height: 100vh;
-        background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)), url("images/bg_hader.jpg") center/cover no-repeat;
+        background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.5)), url("images/bg_hader.jpg") center/cover no-repeat;
         color: #fff;
         background-attachment: scroll;
         background-blend-mode: multiply;
@@ -972,16 +972,16 @@ blockquote span {
 
 /* QUERIES BIJKOMENDE HEADER MET AFBEELDINGEN */
 
-@media screen and (max-width:50em) {
+@media screen and (max-width:62em) {
     .header {
         min-height: 100vh;
-        background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)), url("images/bg_hader.jpg") center/cover no-repeat;
+        background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.5)), url("images/bg_hader.jpg") center/cover no-repeat;
         color: #fff;
         background-attachment: scroll;
         background-blend-mode: multiply;
     }
     .row {
-        margin-top: -20%;
+        margin-top: -15%;
         flex-direction: column;
         margin-bottom: 15%;
     }
@@ -997,7 +997,7 @@ blockquote span {
     }
     .card {
         height: 35vh;
-        width: 75%;
+        width: 42.5%;
     }
     .navNormal {
         display: none;
@@ -1019,7 +1019,7 @@ blockquote span {
 @media screen and (max-width:25em) {
     .header {
         min-height: 100vh;
-        background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)), url("images/bg_hader.jpg") center/cover no-repeat;
+        background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.5)), url("images/bg_hader.jpg") center/cover no-repeat;
         color: #fff;
         background-attachment: scroll;
         background-blend-mode: multiply;
