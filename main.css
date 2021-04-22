@@ -45,7 +45,7 @@ p {
 }
 
 .row {
-    margin-top: 5%;
+    margin-top: 7%;
     display: flex;
     justify-content: center;
     height: 88%;
@@ -981,6 +981,7 @@ blockquote span {
         background-blend-mode: multiply;
     }
     .row {
+        margin-top: -20%;
         flex-direction: column;
         margin-bottom: 15%;
     }
@@ -1008,7 +1009,7 @@ blockquote span {
         opacity: 1;
     }
     .col-1 {
-        margin-bottom: 30px;
+        margin-bottom: 50px;
     }
     .col-2 {
         margin-bottom: 30px;
@@ -1024,6 +1025,7 @@ blockquote span {
         background-blend-mode: multiply;
     }
     .row {
+        margin-top: -10%;
         flex-direction: column;
         margin-bottom: 25%;
     }
