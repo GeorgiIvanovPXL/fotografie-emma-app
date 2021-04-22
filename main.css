@@ -55,11 +55,15 @@ p {
 }
 
 .col-1 {
-    flex-basis: 50%;
+    flex-basis: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .col-2 {
-    flex-basis: 50%;
+    flex-basis: 40%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -205,9 +209,10 @@ p {
 
 .header {
     min-height: 100vh;
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("images/emma_bg.jpg") center/cover no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)), url("images/bg_hader.jpg") center/cover no-repeat;
     color: #fff;
     background-attachment: fixed;
+    background-blend-mode: multiply;
 }
 
 .top-nav a {
@@ -763,9 +768,10 @@ blockquote span {
 @media screen and (min-width: 678px) {
     .header {
         min-height: 100vh;
-        background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("images/emma_bg.jpg") center/cover no-repeat;
+        background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)), url("images/bg_hader.jpg") center/cover no-repeat;
         color: #fff;
         background-attachment: scroll;
+        background-blend-mode: multiply;
     }
     /* section five */
     .contact-middle {
@@ -867,9 +873,9 @@ blockquote span {
 @media screen and (min-width: 1000px) {
     .header {
         min-height: 100vh;
-        background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("images/emma_bg.jpg") center/cover no-repeat;
+        background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.5)), url("images/bg_hader.jpg") center/cover no-repeat;
         color: #fff;
-        background-attachment: scroll;
+        background-blend-mode: multiply;
     }
     /* section one */
     .section-one .container {
@@ -976,23 +982,14 @@ blockquote span {
 @media screen and (max-width:50em) {
     .header {
         min-height: 100vh;
-        background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("images/emma_bg.jpg") center/cover no-repeat;
+        background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)), url("images/bg_hader.jpg") center/cover no-repeat;
         color: #fff;
         background-attachment: scroll;
+        background-blend-mode: multiply;
     }
     .row {
         flex-direction: column;
         margin-bottom: 15%;
-    }
-    .col-1 {
-        display: flex;
-        flex-direction: column;
-    }
-    .col-1>h1 {
-        text-align: center;
-    }
-    .col-1>a {
-        align-self: center;
     }
     .card>h5 {
         color: #fff;
@@ -1028,9 +1025,10 @@ blockquote span {
 @media screen and (max-width:25em) {
     .header {
         min-height: 100vh;
-        background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("images/emma_bg.jpg") center/cover no-repeat;
+        background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)), url("images/bg_hader.jpg") center/cover no-repeat;
         color: #fff;
         background-attachment: scroll;
+        background-blend-mode: multiply;
     }
     .row {
         flex-direction: column;
