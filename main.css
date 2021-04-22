@@ -190,6 +190,7 @@ p {
 .btn:hover {
     background: var(--darkGreen);
     color: #fff;
+    cursor: pointer;
 }
 
 .active {
@@ -741,6 +742,11 @@ blockquote span {
 .footer>p {
     text-align: center;
     font-size: 14px;
+}
+
+.contact-form {
+    opacity: 1;
+    transition: var(--transition);
 }
 
 

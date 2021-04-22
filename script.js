@@ -2,6 +2,8 @@ const showBtn = document.querySelector('.navBtn');
 const topNav = document.querySelector('.top-nav');
 const aboutMoved = document.querySelector('.about');
 const row = document.querySelector('.row');
+const inputs = document.getElementsByTagName('input');
+const submitButton = document.getElementById('Submitter');
 
 
 
