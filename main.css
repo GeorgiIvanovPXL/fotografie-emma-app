@@ -746,6 +746,12 @@ blockquote span {
 /***************** Media Queries *****************/
 
 @media screen and (min-width: 678px) {
+    .header {
+        min-height: 100vh;
+        background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("images/emma_bg.jpg") center/cover no-repeat;
+        color: #fff;
+        background-attachment: scroll;
+    }
     /* section five */
     .contact-middle {
         display: grid;
@@ -832,6 +838,12 @@ blockquote span {
 }
 
 @media screen and (min-width: 1000px) {
+    .header {
+        min-height: 100vh;
+        background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("images/emma_bg.jpg") center/cover no-repeat;
+        color: #fff;
+        background-attachment: fixed;
+    }
     /* section one */
     .section-one .container {
         display: grid;
@@ -935,6 +947,12 @@ blockquote span {
 /* QUERIES BIJKOMENDE HEADER MET AFBEELDINGEN */
 
 @media screen and (max-width:50em) {
+    .header {
+        min-height: 100vh;
+        background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("images/emma_bg.jpg") center/cover no-repeat;
+        color: #fff;
+        background-attachment: scroll;
+    }
     .row {
         flex-direction: column;
         margin-bottom: 15%;
@@ -981,6 +999,12 @@ blockquote span {
 }
 
 @media screen and (max-width:25em) {
+    .header {
+        min-height: 100vh;
+        background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("images/emma_bg.jpg") center/cover no-repeat;
+        color: #fff;
+        background-attachment: scroll;
+    }
     .row {
         flex-direction: column;
         margin-bottom: 25%;
