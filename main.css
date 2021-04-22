@@ -997,7 +997,7 @@ blockquote span {
     }
     .card {
         height: 35vh !important;
-        width: 70% !important;
+        width: 40% !important;
     }
     .navNormal {
         display: none;
@@ -1041,6 +1041,6 @@ blockquote span {
     }
     .card {
         height: 35vh !important;
-        width: 70% !important;
+        width: 40% !important;
     }
 }
