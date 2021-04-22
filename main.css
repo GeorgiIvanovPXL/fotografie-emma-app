@@ -95,8 +95,10 @@ p {
 
 .card {
     width: 35%;
-    height: 35vh;
-    display: inline-block;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border-radius: 10px;
     padding: 15px 25px;
     box-sizing: border-box;
@@ -158,6 +160,7 @@ p {
     transition: all 0.4s ease;
     transform: translateY(-10px);
     box-shadow: 0 0 5px #999;
+    background-blend-mode: multiply;
 }
 
 
@@ -320,7 +323,7 @@ p {
     font-size: 48px;
     text-align: center;
     margin-bottom: 35px;
-    color: var(--lightGreen);
+    color: #fff;
 }
 
 .about-content h3 {
@@ -345,7 +348,7 @@ blockquote {
 blockquote span {
     font-size: 14px;
     text-transform: uppercase;
-    color: var(--darkGreen);
+    color: #d1d1d1cc;
     font-weight: 300;
     letter-spacing: 5px;
     display: block;
@@ -720,22 +723,12 @@ blockquote span {
 
 .subs i {
     font-size: 26px;
-    flex: 10%;
+    flex: 40%;
     display: block;
 }
 
-.subs input {
+.subs a {
     flex: 60%;
-    background: transparent;
-    border: none;
-    font-size: 16px;
-    padding: 0 5px;
-    outline: 0;
-    color: #fff;
-}
-
-.subs button {
-    flex: 30%;
     font-size: 16px;
     padding: 15px 0;
     font-weight: bold;
@@ -745,7 +738,7 @@ blockquote span {
     cursor: pointer;
 }
 
-.subs button:hover {
+.subs a:hover {
     color: #fff;
 }
 
@@ -827,8 +820,8 @@ blockquote span {
         display: flex;
     }
     .top-nav ul li {
-        margin-right: 30px;
-        margin-left: 30px;
+        margin-right: 50px;
+        margin-left: 50px;
     }
     .about {
         margin-top: 10%;
@@ -1002,8 +995,8 @@ blockquote span {
         font-size: 12px;
     }
     .card {
-        height: 40vh;
-        width: 80%;
+        height: 35vh;
+        width: 75%;
     }
     .navNormal {
         display: none;
