@@ -501,6 +501,10 @@ blockquote span {
     transition: var(--transition);
 }
 
+.icon-overlay a {
+    color: #fff;
+}
+
 .insta-imgs>div:hover .icon-overlay {
     opacity: 1;
 }
@@ -842,7 +846,7 @@ blockquote span {
         min-height: 100vh;
         background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("images/emma_bg.jpg") center/cover no-repeat;
         color: #fff;
-        background-attachment: fixed;
+        background-attachment: scroll;
     }
     /* section one */
     .section-one .container {
